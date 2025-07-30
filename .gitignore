@@ -1,0 +1,3 @@
+/.idea
+*.pyc
+/shacl_path_query_generator.egg-info
