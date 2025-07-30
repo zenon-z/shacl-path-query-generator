@@ -12,3 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - SPARQL generator for CONSTRUCT-compatible triple expansion
 - Full test coverage for all path types (sequence, inverse, alternatives, repetition)
 - MIT License and PyPI-ready packaging
+
+## [0.1.1] – 2025-07-30
+### Fixed
+- Corrected installation instructions in `README.md` (removed incorrect `pip install -e .`)
