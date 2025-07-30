@@ -24,7 +24,7 @@ Parse and flatten SHACL path expressions into executable SPARQL triple patterns.
 ## Installation
 
 ```bash
-pip install -e .
+pip install shacl-path-query-generator
 ````
 
 Requires: `rdflib>=7.1.4`
