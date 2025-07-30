@@ -1,7 +1,3 @@
-\[2025-07-30 16:42+0200]
-
-Here is your `README.md` tailored to your SHACL path parser and flattener package:
-
 ---
 
 # SHACL Path Query Generator
