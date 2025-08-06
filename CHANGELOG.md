@@ -20,7 +20,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.1.2] – 2025-07-30
 ### Removed
 - Unnecessary bloat in README
-- 
+
 ## [0.1.3] – 2025-08-06
 ### Added
 - Made PathExpr available in the top-level package
+
+## [0.1.4] – 2025-08-06
+### Added
+- Made parse_shacl_path available in the top-level package
+- Made flatten_path available in the top-level package

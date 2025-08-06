@@ -1,6 +1,6 @@
 # __init__.py
 
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 
 
 from .parser import parse_shacl_path, SHACLParseError
@@ -19,4 +19,4 @@ def path_to_sparql_pattern(path_node, shapes_graph, source_var="?s", target_var=
     return "\n".join(triples)
 
 
-__all__ = ["path_to_sparql_pattern", "__version__", "PathExpr"]
+__all__ = ["path_to_sparql_pattern", "__version__", "PathExpr", "flatten_path", "parse_shacl_path"]
