@@ -64,7 +64,7 @@ print(pattern)
 
 ```
 ?s <http://ex.org/p1> ?v0 .
-?v0 <http://ex.org/p2> ?o .
+?o <http://ex.org/p2> ?v0 .
 ```
 
 ## Example in a SPARQL CONSTRUCT
@@ -72,12 +72,12 @@ print(pattern)
 ```sparql
 CONSTRUCT {
   ?s <http://ex.org/p1> ?v0 .
-  ?v0 <http://ex.org/p2> ?o .
+  ?o <http://ex.org/p2> ?v0 .
 }
 WHERE {
   VALUES ?s { <http://ex.org/a> <http://ex.org/b> }
   ?s <http://ex.org/p1> ?v0 .
-  ?v0 <http://ex.org/p2> ?o .
+  ?o <http://ex.org/p2> ?v0 .
 }
 ```
 
